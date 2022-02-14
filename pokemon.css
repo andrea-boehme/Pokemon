@@ -1,0 +1,202 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: grey;
+    margin: 0;
+    color: white;
+}
+
+span{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+table{
+    padding: 10px;
+    color: black;
+    margin-left: 5px;
+}
+
+td{
+    min-width: 100px;
+}
+
+tr{
+    height: 35px;
+}
+
+button{
+    border-radius: 40px;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.d-none{
+    display: none;
+}
+
+.pokemons-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.pokemons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.bg0{
+   background-color: rgb(196, 196, 39);
+}
+
+.bg1{
+    background-color: green;
+}
+
+.bg2{
+    background-color: red;
+}
+
+.bg3{
+    background-color: blue;
+}
+
+.bg4{
+    background-color: orange;
+}
+
+.bg5{
+   background-color: pink;
+}
+
+.bg6{
+    background-color: purple;
+}
+
+.bg7{
+    background-color: grey;
+}
+
+.bg8{
+    background-color: brown;
+}
+
+.bg9{
+    background-color: violet;
+}
+
+
+.pokemons img{
+    width: 120px;
+    height: 120px;
+}
+
+.current-pokemon-bg{
+    background-color: lightgrey;
+    height: 100vh;
+    position: absolute;
+    top: 0;;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.current-pokemon{
+    margin-top: 50px;
+    min-height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    width: 550px;
+    position: relative;
+}
+
+
+.current-pokemons-image{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 100px;
+}
+
+        .info-container{
+            background-color: white;
+            border-radius: 20px;
+            min-height: 300px;
+            margin-top: -30px;
+            width: 500px;
+            color: grey;
+            margin-top: 200px;
+            padding: 5px;
+           z-index: 10;
+        }
+
+        .info-container-topics{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            width: 470px;
+        }
+
+        .info-container-topics div:hover{
+            color: black;
+            font-weight: bold;
+        }
+
+.details-stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        .moves{
+            padding: 20px;
+        }
+
+        .info-container-details{
+            display: flex;
+            flex-wrap: wrap;
+            color: black;
+            margin-left: 30px;
+        }
+
+
+        
+
+.details{
+    padding: 20px;
+}        
+
+.underline{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+        body{
+            margin:0;
+        }
